@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #000000;
+  text-align: left;
+}
+.topfooter{
+	background: #795548;
+	color: #FFFFFF
+}
+
+.bottomfooter{
+	background: #59443c;
+	color: #FFFFFF;
+}
+
+.textTypeOne{
+	color: #000000;
+}
+
+.textTypeTwo{
+	color: #FFFFFF;
+}
+
+.blockText{
+	background: darkblue;
+}
+
+.greenBlock{
+	background: #6ABF69;
+}
+
+.bandeauDegraderCouleur {
+	background: #00bcd4;
+	background: linear-gradient(-45deg, #00bcd4, #6abf69, #00bcd4, #6abf69);
+	animation: animformDegraderCouleur 7s ease infinite;
+	background-size: 400% 400%;
+	height: 400px;
+	border-radius: 0px;
+}
+	
+@keyframes animformDegraderCouleur {
+	0%   {
+		background-position: 0% 50%;
+	}
+	50%  {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.baseButton {
+	background-color: #0097A7;
+	color: white;
+}
