@@ -14,3 +14,11 @@
 Route::get('/', function () {
     return view('home');
 });
+
+// client
+
+Route::get('/getLogin', 'ClientController@getLogin');
+
+// product
+
+
